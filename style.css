@@ -1,0 +1,81 @@
+/* Общ стил */
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Навигация */
+  nav ul {
+    background-color: #004080;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #0066cc;
+    border-radius: 5px;
+  }
+  
+/* Хедър секция */
+.hero {
+    background: url('https://www.daskalo.com/uchebnik8it/files/2024/05/cropped-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2024-05-15_211606520.png') no-repeat center center/cover;
+    padding: 30px 20px; /* беше 60px, намалено */
+    color: white;
+    text-align: center;
+  }
+  
+  
+  /* Секции */
+  main {
+    padding: 10px 20px; /* по-малко вертикално отстояние */
+    margin-top: 0;
+  }
+  
+  
+  
+  .about-me ul {
+    list-style: square inside;
+  }
+  
+/* Галерия */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колони */
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px; /* Еднаква височина на всички снимки */
+    object-fit: cover; /* Запълва снимката без да я изкривява */
+    border-radius: 8px; /* Заоблени ъгли */
+}
+
+  /* Футър */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    color: #333;
+    font-size: 0.9em;
+    margin-top: 160px;
+  }
+  
